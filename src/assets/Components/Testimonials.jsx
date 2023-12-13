@@ -5,16 +5,11 @@ const Testimonials = () => {
     <section className="flex flex-col justify-center px-10">
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-2 ">
         <div>
-          <img src="/public/Images/Cohorts 1.png" alt="Testimonial" />
+          <img src="/Images/Cohorts 1.png" alt="Testimonial" />
         </div>
         <div className="flex flex-col gap-4 justify-center items-end">
           <div className="flex items-center justify-end">
-            <img
-              src="/public/Images/Eye.png"
-              height={32}
-              width={32}
-              alt="Icon"
-            />
+            <img src="/Images/Eye.png" height={32} width={32} alt="Icon" />
           </div>
           <div>
             <h4 className="lg:text-3xl flex items-center lg:justify-end m-0 font-medium text-gray-200">

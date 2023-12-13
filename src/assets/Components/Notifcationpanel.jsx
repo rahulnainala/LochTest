@@ -15,12 +15,7 @@ const NotificationPanel = () => {
     <section className="flex justify-center lg:px-10">
       <div className="grid lg:grid-cols-2 lg:p-10 p-5 grid-cols-1 gap-2">
         <div className="flex items-start flex-col justify-center gap-4">
-          <img
-            src="/public/Images/Bell.png"
-            height={32}
-            width={32}
-            alt="Bell Icon"
-          />
+          <img src="/Images/Bell.png" height={32} width={32} alt="Bell Icon" />
           <h4 className="lg:text-3xl font-medium text-gray-200">
             Get notified when a highly correlated whale makes a move
           </h4>
@@ -38,18 +33,14 @@ const NotificationPanel = () => {
               display: "flex",
             }}
           >
+            <img src="/Images/Card1.png" alt="Card 1" className="image-card" />
             <img
-              src="/public/Images/Card1.png"
-              alt="Card 1"
-              className="image-card"
-            />
-            <img
-              src="/public/Images/Card2.png"
+              src="/Images/Card2.png"
               alt="Card 2"
               className="image-card opacity-95"
             />
             <img
-              src="/public/Images/Card3.png"
+              src="/Images/Card3.png"
               alt="Card 3"
               className="image-card opacity-90"
             />

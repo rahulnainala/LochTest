@@ -23,7 +23,7 @@ const Reviews = () => {
     <section className="flex justify-center p-10">
       <div className="lg:flex lg:items-start grid gap-4">
         <img
-          src="/public/Images/Vector.png"
+          src="/Images/Vector.png"
           height={60}
           width={60}
           alt="Bell Icon"
