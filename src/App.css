@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+.custom-gradient {
+  @apply bg-custom-gradient bg-center;
+}
+
+.custom-gradient {
+  display: grid;
+  grid-template-rows: min-content min-content auto;
+}
+
+.notification-container {
+  height: 20vh;
+  overflow: auto;
+}
+
+.reviews-container {
+  height: 25vh;
+  overflow: auto;
+}
+
+.testimonials-container {
+  height: 55vh;
+  overflow: auto;
+}
+
+.bg-custom-gradient {
+  background: radial-gradient(
+    79.84% 79.84% at 32.27% 91.27%,
+    rgba(31, 169, 17, 0.810119) 17.21%,
+    #2f15d0 64.58%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.image-card {
+  height: 190px;
+  width: 172px;
+}
+
+@media (max-width: 640px) {
+  .flex.flex-col {
+    flex-direction: column;
+  }
+}
